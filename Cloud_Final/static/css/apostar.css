@@ -1,0 +1,45 @@
+.tabla table{
+    height: auto;
+    }
+.monto label{
+    position: absolute;
+width: 65px;
+height: 16px;
+left: 580px;
+top: 440px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 16px;
+}
+
+.monto input{
+    position: absolute;
+width: 200px;
+height: 20px;
+left: 580px;
+top: 460px;
+}
+
+.cancelar button{
+    position: absolute;
+    width: 210px;
+    height: 10px;
+    left: 580px;
+    top: 580px;
+    background-color: #ff0000;
+    font-family: 'Helvetica';
+}
+
+.apostar button{
+    position: absolute;
+    width: 210px;
+    height: 20px;
+    left: 580px;
+    top: 500px;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Helvetica';
+}

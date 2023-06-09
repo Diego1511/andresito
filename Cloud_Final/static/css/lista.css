@@ -1,0 +1,59 @@
+.centro h1{
+    position: absolute;
+width: 541px;
+height: 72px;
+left: 600px;
+top: 97px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 72px;
+}
+
+.deporte{
+position: absolute;
+width: 561px;
+height: 53.9px;
+left: 290px;
+top: 219px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 72px;
+}
+
+.Apuesta{
+    position: absolute;
+width: 561px;
+height: 53.9px;
+left: 290px;
+top: 276px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 72px;
+}
+
+.fecha{
+    position: absolute;
+width: 219px;
+height: 73.49px;
+left: 944px;
+top: 219.22px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 72px;
+}
+
+.tabla table{
+    top: 380px;
+    }

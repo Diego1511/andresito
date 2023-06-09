@@ -1,0 +1,68 @@
+.centro label{
+    position: absolute;
+    width: 410.1px;
+    height: 16px;
+    left: 72px;
+    top: 266px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+ 
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.centro input{
+    position: absolute;
+width: 1160px;
+height: 50px;
+left: 72px;
+top: 289px;
+
+}
+
+.centro h1{
+    position: absolute;
+width: 820px;
+height: 20px;
+left: 72px;
+top: 369px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.centro button{
+    position: absolute;
+width: 623.94px;
+height: 50px;
+left: 358px;
+top: 423px;
+
+background-color: #000000   ;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}

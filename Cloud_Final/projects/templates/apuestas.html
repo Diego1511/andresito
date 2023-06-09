@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champbets</title>
+
+    <link rel="stylesheet" href="{% static 'css/pagina.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/apuestas.css' %}" />
+</head>
+<body>
+    <div class="fondo">
+        <div class="menu">
+            <ul>
+                <a href="{% url 'inicio' %}"><img src="{% static 'images/logo.png' %}"></a>
+                <li><a href="{% url 'iniciar' %}">iniciar</a></li>
+                <li><a href="{% url 'soporte' %}">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="centro">
+            <div class="titulo">
+                <h1>Apuestas en vivo</h1>
+            </div>
+            
+             <div class="cuadro1">
+             <h1>Atlético Nacional VS
+                Millonarios</h1>
+                <img src="../images/BetPlay-Dimayor_logo.svg.png" >
+             </div>
+             <div class="cuadro2">
+                <h1>Independiente Medellín VS
+                    Alianza Petrolera</h1>
+                    <img src="../images/BetPlay-Dimayor_logo.svg.png" >
+             </div>
+             <div class="cuadro3">
+                <h1>Deportivo Cali VS
+                    Atletico Bucaramanga</h1>
+                    <img src="../images/BetPlay-Dimayor_logo.svg.png" >
+             </div>
+        </div> 
+
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <h2>+57 3016529837 - +57 310 4731212</h2>
+            <h2>diegomayorga@usantotomas.edu.co</h2>
+            <h2>andrescharria@usantotomas.edu.co</h2>
+            <h2>Bogotá D.C.</h2>
+        </div>
+    </div>
+</body>
+</html>

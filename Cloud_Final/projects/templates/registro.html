@@ -1,0 +1,95 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champbets</title>
+
+    <link rel="stylesheet" href="{% static 'css/pagina.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/labelregistro.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/inputregistro.css' %}">
+</head>
+<body>
+    <div class="fondo">
+        <div class="menu">
+            <ul>
+                <a href="{% url 'inicio' %}"><img src="{% static 'images/logo.png' %}"></a>
+                <li><a href="{% url 'soporte' %}">Soporte</a></li>
+
+            </ul>
+        </div>
+        <div class="centro">
+            <label for="crear">Crear Usuario</label>
+    <div class="nombres">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres">
+    </div>
+
+    <div class="apellidos">
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos">
+    </div>
+
+    <div class="password">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password">
+    </div>
+
+    <div class="tipo_de_documento">
+        <label for="tipo_id">Tipo de documento:</label>
+        <select name="tipo" id="tipo">
+            <option value="value1"> cedula </option>
+            <option value="value2"> cedula extranjera</option>
+            <option value="value2"> Pasaporte</option>
+        </select>
+    </div>
+
+    <div class="documento">
+        <label for="documento">Numero de documento:</label>
+        <input type="number" id="documento" name="documento">
+    </div>
+
+    <div class="fechaexp">
+        <label for="fecha">Fecha de expedición</label>
+        <input type="date" id="fecha" name="fecha">
+    </div>
+
+    <div class="ubicacion">
+        <label for="ubicacion">Ubicación:</label>
+        <input type="text" id="ubicacion" name="ubicacion">
+    </div>
+
+    <div class="direccion">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+    </div>
+
+    <div class="email">
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email ">
+    </div>
+
+    <div class="celular">
+        <label for="celular">Numero de celular:</label>
+        <input type="number" id="celular" name="celular">
+    </div>
+    
+    <div class="pago">
+        <label for="pago"> Medio de pago</label>
+        <select name="pago" id="pago">
+            <option value="value1"> PSE </option>
+            <option value="value2"> Tarjeta debito/credito</option>
+        </select>
+
+    </div>
+
+     
+    <button type="submit" method ="post"> Registrarse </button>
+        </div> 
+
+    </div>
+</body>
+</html>

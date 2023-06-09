@@ -1,0 +1,60 @@
+.centro h1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    font-feature-settings: 'liga' off;
+    position: absolute;
+    width: 571px;
+    height: 216px;
+    left: 41px;
+    top: 160px;
+
+    flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .centro button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 10px;
+
+    position: absolute;
+    width: 163px;
+    height: 60px;
+    left: 60px;
+    top: 454px;
+
+    background: #1FA6FA;
+    border-radius: 8px;
+
+ 
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .centro img{
+    position: absolute;
+    left: 45.6%;
+    right: 4.95%;
+    top: 20.99%;
+    bottom: 35.52%;
+    width: 712.03px;
+    height: 367.89px;
+    top: 177.58px;
+    left: 656.64px;
+  }

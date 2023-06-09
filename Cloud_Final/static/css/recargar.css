@@ -1,0 +1,89 @@
+.centro label{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.centro h1{
+    position: absolute;
+width: 286px;
+height: 33px;
+left: 385px;
+top: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.monto label{
+    position: absolute;
+width: 65px;
+height: 16px;
+left: 274px;
+top: 226px;
+}
+
+.fecha label{
+    position: absolute;
+width: 63px;
+height: 16px;
+left: 273px;
+top: 324px;
+}
+
+.medio label{
+    position: absolute;
+width: 130px;
+height: 16px;
+left: 273px;
+top: 420px;
+}
+
+.monto  input{
+    position: absolute;
+    width: 350px;
+    height: 35px;
+    left: 273px;
+    top: 256px;
+    border-radius: 5px;
+}
+
+.fecha input{
+    position: absolute;
+    width: 352px;
+    height: 40px;
+    left: 273px;
+    top: 354px;
+    border-radius: 5px;
+}
+
+.medio select{
+    position: absolute;
+    width: 356px;
+    height: 40px;
+    left: 273px;
+    top: 450px;
+    border-radius: 5px; 
+}
+
+.centro img{
+    position: absolute;
+width: 510px;
+height: 500px;
+left: 760px;
+top: 130px;
+}

@@ -1,0 +1,145 @@
+.medios{
+    position: absolute;
+    width: 508px;
+    height: 470px;
+    left: 120px;
+    top: 180px;
+    
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+.agregar{
+    position: absolute;
+    width: 508px;
+    height: 470px;
+    left: 799px;
+    top: 180px;
+    
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+h1{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 72px;
+}
+.mp{
+    position: absolute;
+width: 266px;
+height: 72px;
+left: 250px;
+top: 100px;
+}
+
+.amp{
+    position: absolute;
+    width: 266px;
+    height: 72px;
+    left: 920px;
+    top: 100px;
+}
+
+
+.centro label{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+}
+.centro input{
+    position: absolute;
+    width: 375px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.tipo label{
+    position: absolute;
+    width: 160px;
+    left :60px;
+    top: 65px; 
+    
+}
+
+.tipo input{    
+
+left: 60px;
+top: 90px;
+}
+
+.entidad select{
+    position: absolute;
+    width: 382px;
+    height: 37px;
+    position: absolute;
+    top: 190px;  
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    left:60px;
+}
+.entidad label{
+    position: absolute;
+    width: 160px;
+    left :60px;
+    top: 165px; 
+}
+
+.valort input{
+position: absolute;
+top:290px;
+left:60px;
+
+}
+
+.valort label{
+    position: absolute;
+    width: 1260px;
+    left :60px;
+    top: 265px; 
+}
+
+.tarjeta{
+    position: absolute;
+    width: 430px;
+    height: 90px;
+    left: 40px;
+    top: 160px;
+    background-color: rgb(135, 132, 132);
+}
+
+.pse{
+    position: absolute;
+    width: 430px;
+    height: 90px;
+    left: 40px;
+    top: 40px;
+    background-color: rgb(135, 132, 132);
+}
+
+.centro h3{
+position: absolute;
+width: 43px;
+height: 72px;
+
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+
+}
+
+.pse{ 
+
+}
+

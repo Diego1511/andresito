@@ -1,0 +1,105 @@
+
+.cuadro1 h1{
+
+   font-family: 'Helvetica';
+   font-weight: 300;
+   text-align: center;
+   font-size: 25px;
+}
+.cuadro2 h1{
+    font-family: 'Helvetica';
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+}
+.cuadro3 h1{
+    font-family: 'Helvetica';
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px; 
+}
+
+.cuadro1 img{
+    position: absolute;
+width: 93px;
+height: 129px;
+left: 200px;
+top: 150px;
+}
+
+.cuadro2 img{
+    position: absolute;
+    width: 93px;
+    height: 129px;
+    left: 200px;
+    top: 150px;
+
+}
+
+.cuadro3 img{
+    position: absolute;
+    width: 93px;
+    height: 129px;
+    left: 200px;
+    top: 150px;
+
+
+}
+
+
+
+
+.cuadro1{
+    position: absolute;
+width: 319px;
+height: 350px;
+left: 149px;
+top: 281px;
+
+background: rgba(184, 61, 61, 0.79);
+border-radius: 10px;
+}
+
+.cuadro2{
+    position: absolute;
+width: 319px;
+height: 350px;
+left: 560px;
+top: 282px;
+
+background: rgba(184, 61, 61, 0.79);
+border-radius: 10px;
+}
+
+.cuadro3{
+    position: absolute;
+width: 319px;
+height: 350px;
+left: 971px;
+top: 282px;
+
+background: rgba(184, 61, 61, 0.79);
+border-radius: 10px;
+
+}
+
+.titulo h1{
+    position: absolute;
+width: 645px;
+height: 72px;
+left: 555px;
+top: 123px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 72px;
+/* identical to box height, or 180% */
+
+font-feature-settings: 'liga' off;
+
+/* Grey/900 */
+
+color: #18191F;
+}

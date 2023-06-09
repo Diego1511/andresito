@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="{% static 'css/pagina.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/iniciar.css' %}" />
+    <script src="../JavaScript/boton.js"></script>
+</head>
+<body>
+    <div class="fondo"> 
+        <div class="menu">
+            <ul>
+                <a href="{% url 'inicio' %}"><img src="{% static 'images/logo.png' %}"></a>
+                <li><a href="soporte.html">Soporte</a></li>
+
+                <li><a href="apuestas.html">Apuestas</a></li>
+            </ul>
+        </div>
+        <div class="centro">
+            <img src="{% static 'images/login.png' %}">
+            <h1>Iniciar Sesión</h1>
+            <div class="usuario">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario">
+            </div>
+            <div class="contraseña">
+                <label for="contraseña">Contraseña:</label>
+                <input type="text" id="usuario" name="usuario">
+
+            </div>
+             <a href="recuperar.html">¿Has olvidado tu usuario o contraseña?</a>
+
+             <div class="boton1">
+                <button onclick="redirigir('../html/apuestas.html')"> iniciar sesión </button>
+             </div>
+             <div class="boton2">
+                <button onclick="redirigir('../html/registro.html')"> Registrarse</button>
+             </div>
+
+        </div> 
+
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <h2>+57 3016529837 - +57 310 4731212</h2>
+            <h2>diegomayorga@usantotomas.edu.co</h2>
+            <h2>andrescharria@usantotomas.edu.co</h2>
+            <h2>Bogotá D.C.</h2>
+        </div>
+    </div>
+</body>
+</html>

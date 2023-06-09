@@ -1,0 +1,59 @@
+.centro img{
+    position: absolute;
+    width: 534px;
+    height: 508px;
+    left: 177px;
+    top: 164px;
+
+}
+
+.centro h1{
+    position: absolute;
+width: 251px;
+height: 66px;
+left: 972px;
+top: 106px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+}
+
+.usuario label{
+    position: absolute;
+width: 140px;
+height: 10px;
+left: 853px;
+top: 257px;
+font-family: 'Helvetica';
+}
+
+.usuario input{
+    position: absolute;
+width: 396px;
+height: 30px;
+left: 853px;
+top: 280px;
+}
+.contraseña label{
+    position: absolute;
+width: 108px;
+height: 10px;
+left: 853px;
+top: 353px;
+font-family: 'Helvetica';
+
+}
+
+.contraseña input{
+    position: absolute;
+    width: 396px;
+    height: 30px;
+    left: 853px;
+    top: 374px;
+
+    
+
+}

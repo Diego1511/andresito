@@ -1,0 +1,89 @@
+.nombres input{
+position: absolute;
+width: 300px;
+height: 30px;
+left: 150px;
+top: 120px;
+}
+
+
+.ubicacion input{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 600px;
+    top: 120px;
+    }
+
+    .apellidos input{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 150px;
+        top: 200px;
+        }
+
+
+        .direccion input{
+            position: absolute;
+            width: 300px;
+            height: 30px;
+            left: 600px;
+            top: 200px;
+            }
+.password input{
+position: absolute;
+width: 300px;
+height: 30px;
+left: 150px;
+top: 280px;
+}
+
+.email input{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 600px;
+    top: 280px;
+    }
+
+
+.tipo_de_documento select{
+position: absolute;
+width: 300px;
+height: 30px;
+left: 150px;
+top: 370px;
+}
+
+.celular input{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 600px;
+    top: 370px;
+    }
+
+    .documento input{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 150px;
+        top: 450px;
+        }
+
+        .pago select{
+            position: absolute;
+            width: 300px;
+            height: 30px;
+            left: 600px;
+            top: 450px;
+            }
+
+            .fechaexp input {
+                position: absolute;
+                width: 300px;
+                height: 30px;
+                left: 150px;
+                top: 530px;
+                }
